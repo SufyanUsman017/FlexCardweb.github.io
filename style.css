@@ -1,0 +1,62 @@
+.{
+    margin: 0%;
+    padding:0%;
+}
+.bd{
+    background-color: darkslategray ;
+   
+}
+.container{
+    border: 1px solid;
+    width: 90vw;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    justify-content: space-around;
+    background-color: rgb(133, 90, 35);
+    margin-top: 100px;
+    
+    
+}
+.card{
+    width: 200px;
+    height: 250px;
+    background-color: rgb(194, 81, 81);
+    margin: 10px 5px;
+   
+}
+.pic{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    margin-top: 20px;
+}
+.para{
+    font-size: 15px;
+    padding: 5px ;
+    color:springgreen;
+}
+.btn{
+    margin: 2px;
+    padding: 5px 5px;
+    border: 2px solid;
+    border-radius: 15px;
+    background-color: teal;
+}
+.btn:hover{
+    background-color: rgb(48, 48, 85);
+    cursor: pointer;
+    color: bisque;
+    height: 50px;
+}
+.pic2{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    margin-top:  10px ;
+    margin-right: 120px;
+}
